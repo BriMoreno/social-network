@@ -54,8 +54,8 @@ const userController = {
     })
     .catch(err => res.status(400).json(err));
     },
-    // deleting user thoughts by id
-    deleteThought({ params }, res){
+    // deleting user by id
+    deleteUser({ params }, res){
         User.findOneAndDelete({_id: params.id})
         .then(userData => {
             if (!userData) {
