@@ -12,7 +12,7 @@ const {
 // fetch all users and post user creation
 router.route('/')
     .get(allUsers)
-    .posy(createUser);
+    .post(createUser);
 
 // fetch by id and delete by id
 router.route('/:id')
