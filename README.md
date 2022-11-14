@@ -23,4 +23,9 @@ THEN I am able to successfully create, update, and delete users and thoughts in 
 WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 `
-# Demo
+# Comments and Error
+When trying to execute the code I would get returned a error in my node modules for usefindandmodify but no where in my code do I use this option so I do not know what it is causing this error. If there is any suggestions to fix this error it would be much appreciated.
+
+![gif](error.gif)
+
+
